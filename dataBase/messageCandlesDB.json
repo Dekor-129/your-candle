@@ -1,0 +1,25 @@
+[
+  {
+    "id": 1,
+    "path": "message-candle",
+    "name": "Свеча с посланием",
+    "src": "/catalogImg/message-candles.png",
+    "description": "Свеча с посланием",
+    "type": "message-candles",
+    "price": 300,
+    "currentPrice": 250,
+    "parameter": {
+      "volume": 50,
+      "color": {
+        "color": "natural",
+        "colorName": "Натуральный",
+        "price": 0
+      },
+      "coloring": {
+        "coloring": false,
+        "coloringPrice": 50
+      },
+      "scented": false
+    }
+  }
+]

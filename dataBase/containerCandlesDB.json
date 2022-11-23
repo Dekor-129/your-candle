@@ -1,0 +1,25 @@
+[
+  {
+    "id": 1,
+    "path": "container-candle",
+    "name": "Контейнерная свеча",
+    "src": "/catalogImg/container-candles.png",
+    "description": "Контейнерная свеча",
+    "type": "container-candle",
+    "price": 300,
+    "currentPrice": 250,
+    "parameter": {
+      "volume": 50,
+      "color": {
+        "color": "natural",
+        "colorName": "Натуральный",
+        "price": 0
+      },
+      "coloring": {
+        "coloring": false,
+        "coloringPrice": 50
+      },
+      "scented": false
+    }
+  }
+]

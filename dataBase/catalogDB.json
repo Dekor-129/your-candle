@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "path": "shaped-candles",
+    "name": "Формовые свечи",
+    "src": "/catalogImg/shaped-candles.jpeg"
+  },
+  {
+    "id": 2,
+    "path": "scented-candles",
+    "name": "Ароматические свечи",
+    "src": "/catalogImg/scented-candles.png"
+  },
+  {
+    "id": 3,
+    "path": "container-candles",
+    "name": "Контейнерные свечи",
+    "src": "/catalogImg/container-candles.png"
+  },
+  {
+    "id": 4,
+    "path": "message-candles",
+    "name": "Свечи с посланием",
+    "src": "/catalogImg/message-candles.png"
+  }
+]

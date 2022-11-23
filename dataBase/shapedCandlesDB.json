@@ -1,0 +1,451 @@
+[
+  {
+    "id": 1,
+    "path": "edinorog",
+    "name": "Единорожка",
+    "src": "/candles/edinorog.png",
+    "description": "Единорожка",
+    "type": "shaped-candles",
+    "price": 250,
+    "currentPrice": 200,
+    "parameter": {
+      "weight": 40,
+      "height": 5.8,
+      "color": {
+        "color": "natural",
+        "colorName": "Натуральный",
+        "price": 0
+      },
+      "coloring": {
+        "coloring": false,
+        "coloringPrice": 50
+      },
+      "scented": false
+    }
+  },
+  {
+    "id": 2,
+    "path": "el",
+    "name": "Ель",
+    "src": "/candles/el.png",
+    "description": "Ель",
+    "type": "shaped-candles",
+    "price": 350,
+    "currentPrice": 250,
+    "coloringPrice": 50,
+    "parameter": {
+      "weight": 100,
+      "height": 9.5,
+      "color": {
+        "color": "natural",
+        "colorName": "Натуральный",
+        "price": 0
+      },
+      "coloring": {
+        "coloring": false,
+        "coloringPrice": 50
+      },
+      "scented": false
+    }
+  },
+  {
+    "id": 3,
+    "path": "elka",
+    "name": "Елка",
+    "src": "/candles/elka.png",
+    "description": "Елка",
+    "type": "shaped-candles",
+    "price": 400,
+    "currentPrice": 300,
+    "coloringPrice": 50,
+    "parameter": {
+      "weight": 128,
+      "height": 11.5,
+      "color": {
+        "color": "natural",
+        "colorName": "Натуральный",
+        "price": 0
+      },
+      "coloring": {
+        "coloring": false,
+        "coloringPrice": 50
+      },
+      "scented": false
+    }
+  },
+  {
+    "id": 4,
+    "path": "medved",
+    "name": "Медвежонок",
+    "src": "/candles/medved.png",
+    "description": "Медвежонок",
+    "type": "shaped-candles",
+    "price": 250,
+    "currentPrice": 200,
+    "coloringPrice": 50,
+    "parameter": {
+      "weight": 60,
+      "height": 6.5,
+      "color": {
+        "color": "natural",
+        "colorName": "Натуральный",
+        "price": 0
+      },
+      "coloring": {
+        "coloring": false,
+        "coloringPrice": 50
+      },
+      "scented": false
+    }
+  },
+  {
+    "id": 5,
+    "path": "rabbit",
+    "name": "Кролик",
+    "src": "/candles/rabbit.jpeg",
+    "description": "Кролик",
+    "type": "shaped-candles",
+    "price": 250,
+    "currentPrice": 200,
+    "coloringPrice": 50,
+    "parameter": {
+      "weight": 80,
+      "height": 4.2,
+      "color": {
+        "color": "natural",
+        "colorName": "Натуральный",
+        "price": 0
+      },
+      "coloring": {
+        "coloring": false,
+        "coloringPrice": 50
+      },
+      "scented": false
+    }
+  },
+  {
+    "id": 7,
+    "path": "romanticpara",
+    "name": "Нежность",
+    "src": "/candles/romanticpara.jpeg",
+    "description": "Нежность",
+    "type": "shaped-candles",
+    "price": 450,
+    "currentPrice": 300,
+    "coloringPrice": 50,
+    "parameter": {
+      "weight": 100,
+      "height": 11.5,
+      "color": {
+        "color": "natural",
+        "colorName": "Натуральный",
+        "price": 0
+      },
+      "coloring": {
+        "coloring": false,
+        "coloringPrice": 50
+      },
+      "scented": false
+    }
+  },
+  {
+    "id": 8,
+    "path": "serdcecolonna",
+    "name": "Сердце колонна",
+    "src": "/candles/serdcecolonna.jpeg",
+    "description": "Сердце колонна",
+    "type": "shaped-candles",
+    "price": 250,
+    "currentPrice": 200,
+    "coloringPrice": 50,
+    "parameter": {
+      "weight": 75,
+      "height": 4.5,
+      "color": {
+        "color": "natural",
+        "colorName": "Натуральный",
+        "price": 0
+      },
+      "coloring": {
+        "coloring": false,
+        "coloringPrice": 50
+      },
+      "scented": false
+    }
+  },
+  {
+    "id": 9,
+    "path": "serdce-geometry-xl",
+    "name": "Сердце геометрия XL",
+    "src": "/candles/serdcegeometria.jpeg",
+    "description": "Сердце геометрия",
+    "type": "shaped-candles",
+    "price": 200,
+    "currentPrice": 150,
+    "coloringPrice": 50,
+    "parameter": {
+      "weight": 39,
+      "height": 2,
+      "color": {
+        "color": "natural",
+        "colorName": "Натуральный",
+        "price": 0
+      },
+      "coloring": {
+        "coloring": false,
+        "coloringPrice": 50
+      },
+      "scented": false
+    }
+  },
+  {
+    "id": 10,
+    "path": "serdce-geometry-l",
+    "name": "Сердце геометрия L",
+    "src": "/candles/serdcegeometria.jpeg",
+    "description": "Сердце геометрия",
+    "type": "shaped-candles",
+    "price": 170,
+    "currentPrice": 120,
+    "coloringPrice": 50,
+    "parameter": {
+      "weight": 24,
+      "height": 1.7,
+      "color": {
+        "color": "natural",
+        "colorName": "Натуральный",
+        "price": 0
+      },
+      "coloring": {
+        "coloring": false,
+        "coloringPrice": 50
+      },
+      "scented": false
+    }
+  },
+  {
+    "id": 11,
+    "path": "serdce-geometry-s",
+    "name": "Сердце геометрия S",
+    "src": "/candles/serdcegeometria.jpeg",
+    "description": "Сердце геометрия",
+    "type": "shaped-candles",
+    "price": 120,
+    "currentPrice": 70,
+    "coloringPrice": 50,
+    "parameter": {
+      "weight": 10,
+      "height": 1.4,
+      "color": {
+        "color": "natural",
+        "colorName": "Натуральный",
+        "price": 0
+      },
+      "coloring": {
+        "coloring": false,
+        "coloringPrice": 50
+      },
+      "scented": false
+    }
+  },
+  {
+    "id": 12,
+    "path": "geometry",
+    "name": "Геометрия",
+    "src": "/candles/geometry.jpeg",
+    "description": "Геометрия",
+    "type": "shaped-candles",
+    "price": 250,
+    "currentPrice": 200,
+    "coloringPrice": 50,
+    "parameter": {
+      "weight": 70,
+      "height": 4,
+      "color": {
+        "color": "natural",
+        "colorName": "Натуральный",
+        "price": 0
+      },
+      "coloring": {
+        "coloring": false,
+        "coloringPrice": 50
+      },
+      "scented": false
+    }
+  },
+  {
+    "id": 13,
+    "path": "sova",
+    "name": "Сова",
+    "src": "/candles/sova.png",
+    "description": "Сова",
+    "type": "shaped-candles",
+    "price": 350,
+    "currentPrice": 250,
+    "coloringPrice": 50,
+    "parameter": {
+      "weight": 80,
+      "height": 6.2,
+      "color": {
+        "color": "natural",
+        "colorName": "Натуральный",
+        "price": 0
+      },
+      "coloring": {
+        "coloring": false,
+        "coloringPrice": 50
+      },
+      "scented": false
+    }
+  },
+  {
+    "id": 14,
+    "path": "rose",
+    "name": "Роза",
+    "src": "/candles/rose.jpeg",
+    "description": "Роза",
+    "type": "shaped-candles",
+    "price": 400,
+    "currentPrice": 300,
+    "coloringPrice": 50,
+    "parameter": {
+      "weight": 80,
+      "height": 3.5,
+      "color": {
+        "color": "natural",
+        "colorName": "Натуральный",
+        "price": 0
+      },
+      "coloring": {
+        "coloring": false,
+        "coloringPrice": 50
+      },
+      "scented": false
+    }
+  },
+  {
+    "id": 15,
+    "path": "rose-colonna",
+    "name": "Колонна роз",
+    "src": "/candles/rose-colonna.png",
+    "description": "Колонна роз",
+    "type": "shaped-candles",
+    "price": 250,
+    "currentPrice": 200,
+    "coloringPrice": 50,
+    "parameter": {
+      "weight": 80,
+      "height": 7.5,
+      "color": {
+        "color": "natural",
+        "colorName": "Натуральный",
+        "price": 0
+      },
+      "coloring": {
+        "coloring": false,
+        "coloringPrice": 50
+      },
+      "scented": false
+    }
+  },
+  {
+    "id": 16,
+    "path": "boginya-bast",
+    "name": "Богиня Баст",
+    "src": "/candles/boginya-bast.png",
+    "description": "Богиня Баст",
+    "type": "shaped-candles",
+    "price": 400,
+    "currentPrice": 300,
+    "coloringPrice": 50,
+    "parameter": {
+      "weight": 56,
+      "height": 15.6,
+      "color": {
+        "color": "natural",
+        "colorName": "Натуральный",
+        "price": 0
+      },
+      "coloring": {
+        "coloring": false,
+        "coloringPrice": 50
+      },
+      "scented": false
+    }
+  },
+  {
+    "id": 17,
+    "path": "bubble",
+    "name": "Bubble",
+    "src": "/candles/bubble.jpeg",
+    "description": "Bubble",
+    "type": "shaped-candles",
+    "price": 400,
+    "currentPrice": 300,
+    "coloringPrice": 50,
+    "parameter": {
+      "weight": 130,
+      "height": 6,
+      "color": {
+        "color": "natural",
+        "colorName": "Натуральный",
+        "price": 0
+      },
+      "coloring": {
+        "coloring": false,
+        "coloringPrice": 50
+      },
+      "scented": false
+    }
+  },
+  {
+    "id": 18,
+    "path": "minibubble",
+    "name": "Mini Bubble",
+    "src": "/candles/mini-bubble.jpeg",
+    "description": "Mini Bubble",
+    "type": "shaped-candles",
+    "price": 250,
+    "currentPrice": 150,
+    "coloringPrice": 50,
+    "parameter": {
+      "weight": 40,
+      "height": 3.5,
+      "color": {
+        "color": "natural",
+        "colorName": "Натуральный",
+        "price": 0
+      },
+      "coloring": {
+        "coloring": false,
+        "coloringPrice": 50
+      },
+      "scented": false
+    }
+  },
+  {
+    "id": 19,
+    "path": "bunny",
+    "name": "Зайчик",
+    "src": "/candles/bunny.jpeg",
+    "description": "bunny",
+    "type": "shaped-candles",
+    "price": 250,
+    "currentPrice": 200,
+    "coloringPrice": 50,
+    "parameter": {
+      "weight": 30,
+      "height": 4,
+      "color": {
+        "color": "natural",
+        "colorName": "Натуральный",
+        "price": 0
+      },
+      "coloring": {
+        "coloring": false,
+        "coloringPrice": 50
+      },
+      "scented": false
+    }
+  }
+]

@@ -1,0 +1,67 @@
+
+/*Карточка*/
+
+.img {
+  border-radius: 10px;
+  cursor: pointer;
+  border: 1px solid #edeef0 !important;
+}
+
+.card {
+  margin-top: 35px;
+  width: 300px;
+  background-color: #fff;
+  padding: 10px 10px;
+  border: 1px solid #e5e7ec;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.06);
+  transition: all .3s;
+}
+
+.card:hover {
+  box-shadow: 0 14px 30px -15px rgba(0, 0, 0, 0.75);
+}
+
+.textDesc {
+  text-align: center;
+  padding: 10px;
+}
+
+.priceBlock {
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.currentPrice {
+  padding: 0 5px;
+}
+
+.price {
+  color: #b7b9bd;
+  padding: 0 5px;
+  text-decoration-line: line-through;
+  font-size:medium
+}
+
+
+.buttonBlock {
+  display: flex;
+  justify-content:space-between
+}
+
+.buttonSendToCart {
+  height: 40px;
+  width: 100px;
+  background-color: #4D689C;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  padding: 0;
+  border-radius: 5px;
+}
+
+.buttonSendToCart:hover {
+  background-color: #e75413;
+}
+
+/*Карточка*/

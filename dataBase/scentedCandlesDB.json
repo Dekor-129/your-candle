@@ -1,0 +1,94 @@
+[
+  {
+    "id": 1,
+    "path": "kedr",
+    "name": "Кедр",
+    "src": "/catalogImg/scented-candles.png",
+    "description": "Ароматическая свеча",
+    "type": "scented-candle",
+    "price": 300,
+    "currentPrice": 250,
+    "parameter": {
+      "volume": 50,
+      "color": {
+        "color": "natural",
+        "colorName": "Натуральный",
+        "price": 0
+      },
+      "coloring": {
+        "coloring": false,
+        "coloringPrice": 50
+      },
+      "scented": true
+    }
+  },
+  {
+    "id": 2,
+    "path": "scented-candle",
+    "name": "Нероли",
+    "src": "/catalogImg/scented-candles.png",
+    "description": "Ароматическая свеча",
+    "type": "scented-candle",
+    "price": 300,
+    "currentPrice": 250,
+    "parameter": {
+      "volume": 50,
+      "color": {
+        "color": "natural",
+        "colorName": "Натуральный",
+        "price": 0
+      },
+      "coloring": {
+        "coloring": false,
+        "coloringPrice": 50
+      },
+      "scented": true
+    }
+  },
+  {
+    "id": 3,
+    "path": "scented-candle",
+    "name": "Груша и Фрезия",
+    "src": "/catalogImg/scented-candles.png",
+    "description": "Ароматическая свеча",
+    "type": "scented-candle",
+    "price": 300,
+    "currentPrice": 250,
+    "parameter": {
+      "volume": 50,
+      "color": {
+        "color": "natural",
+        "colorName": "Натуральный",
+        "price": 0
+      },
+      "coloring": {
+        "coloring": false,
+        "coloringPrice": 50
+      },
+      "scented": true
+    }
+  },
+  {
+    "id": 4,
+    "path": "scented-candle",
+    "name": "Тыквенный пирог",
+    "src": "/catalogImg/scented-candles.png",
+    "description": "Ароматическая свеча",
+    "type": "scented-candle",
+    "price": 300,
+    "currentPrice": 250,
+    "parameter": {
+      "volume": 50,
+      "color": {
+        "color": "natural",
+        "colorName": "Натуральный",
+        "price": 0
+      },
+      "coloring": {
+        "coloring": false,
+        "coloringPrice": 50
+      },
+      "scented": true
+    }
+  }
+]

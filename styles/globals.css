@@ -1,0 +1,91 @@
+/*Общее*/
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  cursor: default;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #fff;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+}
+
+main {
+  padding-top: 200px;
+}
+
+body {
+  background: #edeef0;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+/*Общее*/
+
+/*Блок пути*/
+
+.blockPath {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.blockPath a{
+  color: #7F9ACE;
+}
+
+.blockPath span{
+  color: #4D689C;
+}
+
+/*Блок пути*/
+
+.colorIcon{
+  height: 25px;
+  width: 25px;
+  border: 1px solid #edeef0;
+  border-radius: 5px;
+}
+
+.natural {
+  background: #fff;
+}
+
+.black {
+  background: #000
+}
+
+.yellow {
+  background: yellow
+}
+
+/**/
+
+/*Кнопка оюъема*/
+.btn-valume {
+  background-color: #FFF;
+  color: #000;
+  border: 1px solid #000;
+  border-radius: 5px;
+  padding: 7px 12px;
+}
+
+.btn-valume-active{
+  background-color: #4D689C;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 7px 12px;
+}
+/*Кнопка оюъема*/

@@ -1,0 +1,40 @@
+.footer {
+  background-color: #4D689C;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+}
+
+.footer a {
+  color: #fff;
+}
+
+.block {
+  margin: 25px 50px;
+}
+
+/*Адаптив*/
+
+@media (max-width: 1000px) {
+  .block {
+    margin: 25px 25px;
+  }
+}
+
+@media (max-width: 750px) {
+  .block {
+    margin: 25px 10px;
+  }
+}
+
+@media (max-width: 650px) {
+  .footer {
+    display: block;
+    padding: 10px 25px;
+  }
+  .block {
+    margin: 25px 10px;
+  }
+}
+
+/*Адаптив*/

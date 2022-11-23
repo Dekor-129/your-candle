@@ -1,0 +1,33 @@
+.headerTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px 0 0;
+}
+
+.logoBlock {
+  display: flex;
+  cursor: pointer;
+  font-family: 'Lobster', cursive;
+}
+
+.logoBlock img {
+  height: 50px;
+  width: auto;
+}
+
+.textLogoBlock {
+  display: flex;
+  align-items: center;
+  font-size: 40px;
+  padding-bottom: 5px;
+}
+
+.buttonCart {
+  cursor: pointer;
+  z-index: 5;
+}
+
+.buttonCart a {
+  color: #4D689C
+}
