@@ -24,7 +24,7 @@
   },
   {
     "id": 2,
-    "path": "scented-candle",
+    "path": "neroli",
     "name": "Нероли",
     "src": "/catalogImg/scented-candles.png",
     "description": "Ароматическая свеча",
@@ -47,7 +47,7 @@
   },
   {
     "id": 3,
-    "path": "scented-candle",
+    "path": "grusha-i-frezia",
     "name": "Груша и Фрезия",
     "src": "/catalogImg/scented-candles.png",
     "description": "Ароматическая свеча",
@@ -70,7 +70,7 @@
   },
   {
     "id": 4,
-    "path": "scented-candle",
+    "path": "tikvennij-pirog",
     "name": "Тыквенный пирог",
     "src": "/catalogImg/scented-candles.png",
     "description": "Ароматическая свеча",
@@ -93,7 +93,7 @@
   },
   {
     "id": 5,
-    "path": "scented-candle",
+    "path": "hvoja",
     "name": "Хвоя",
     "src": "/catalogImg/scented-candles.png",
     "description": "Ароматическая свеча",
