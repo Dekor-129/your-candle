@@ -10,7 +10,7 @@ import Form from 'react-bootstrap/Form';
 import { useState } from 'react';
 import PageButton from './PageButton';
 
-export default function ScentedCandles({ product, colors }) {
+export default function MessageCandles({ product, colors }) {
   const [color, setColor] = useState(colors[0])
   const [prod, setProd] = useState({ ...product })
   const [quantity, setQuantity] = useState([ prod ])

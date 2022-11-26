@@ -90,5 +90,28 @@
       },
       "scented": true
     }
+  },
+  {
+    "id": 5,
+    "path": "scented-candle",
+    "name": "Хвоя",
+    "src": "/catalogImg/scented-candles.png",
+    "description": "Ароматическая свеча",
+    "type": "scented-candle",
+    "price": 300,
+    "currentPrice": 250,
+    "parameter": {
+      "volume": 50,
+      "color": {
+        "color": "natural",
+        "colorName": "Натуральный",
+        "price": 0
+      },
+      "coloring": {
+        "coloring": false,
+        "coloringPrice": 50
+      },
+      "scented": true
+    }
   }
 ]
