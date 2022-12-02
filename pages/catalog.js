@@ -12,7 +12,7 @@ export default function Catalog() {
       keywords={'формовые свечи, ароматические свечи'}
     >
       <h2 className="text-center">Каталог</h2>
-      <Container className='mt-5'>
+      <Container className='mb-5'>
         <Row>
           {
             catalogDB.map((elem) => {

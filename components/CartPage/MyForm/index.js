@@ -7,7 +7,7 @@ import { fullDeleteAction } from '../../../store/itemsReducer'
 import { useSelector } from 'react-redux'
 import MySpiner from '../MyModal/MySpiner';
 
-const adress = 'https://www.your-candle.ru'
+const adress = 'https://your-candle-dekor129.vercel.app'
 
 export default function MyForm({ onClose, showSuccess, load }) {
   const dispatch = useDispatch()
@@ -116,7 +116,7 @@ export default function MyForm({ onClose, showSuccess, load }) {
       <Form.Group className="my-3" controlId="formBasicCheckbox">
         <Form.Check 
           required 
-          type="checkbox" label="Срок изготовления и сборки заказов составляет 3-5 дней" 
+          type="checkbox" label="Срок изготовления и сборки заказов составляет 1-3 дней" 
           onClick={()=>{
             setForm({...form, agree: !form.agree})
           }}

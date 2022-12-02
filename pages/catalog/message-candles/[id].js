@@ -15,9 +15,6 @@ export default function MessageCandles({ product, colors }) {
   const [prod, setProd] = useState({ ...product })
   const [quantity, setQuantity] = useState([ prod ])
 
-  //console.log(prod);
-  //console.log(quantity);
-
   const normilize = ()=> {
     setProd(()=> {
       const obj = {
@@ -38,28 +35,6 @@ export default function MessageCandles({ product, colors }) {
         }
       }
       setQuantity([ obj ])
-      return obj
-    })
-  }
-
-  const handleVolume = (volume)=> {
-    setProd((oldProp)=> {
-      const price = volume === 50 ? 300 : 450
-      const currentPrice = volume === 50 ? 250 : 350
-
-
-      const obj = {
-        ...oldProp,
-        price,
-        currentPrice,
-        parameter: {
-          ...oldProp.parameter,
-          volume
-        }
-      }
-
-      setQuantity([ obj ])
-
       return obj
     })
   }
@@ -118,10 +93,7 @@ export default function MessageCandles({ product, colors }) {
                       <Col>
                         <Row>
                           <Col>
-                            <button className={prod.parameter.volume === 50 ? 'btn-valume-active' : 'btn-valume'} onClick={()=>handleVolume(50)} >50 мл</button>
-                          </Col>
-                          <Col>
-                            <button className={prod.parameter.volume === 100 ? 'btn-valume-active' : 'btn-valume'} onClick={()=>handleVolume(100)} >100 мл</button>
+                            <button className={'btn-valume-active'}>50 мл</button>
                           </Col>
                         </Row>
                       </Col>

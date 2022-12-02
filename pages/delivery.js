@@ -1,3 +1,4 @@
+import { Col, Container } from 'react-bootstrap'
 import MainContainer from '../Layouts/MainContainer'
 
 export default function Delivery() {
@@ -5,7 +6,25 @@ export default function Delivery() {
   <>
     <MainContainer title = 'Доставка' >
       <h2 className="text-center">Доставка</h2>
-      <div style={{height: 700}}></div>
+      <Container>
+        <Col className='my-5'>
+          <h3>
+            Доставка по Рязани:
+          </h3>
+          <p>
+          Доставка по Рязани осуществляется через ЯндексGo (Яндекс.Такси) – вы оплачиваете заказ водителю при получении по счетчику.
+          </p>
+        </Col>
+        
+        <Col className='my-5'>
+          <h3>
+            Доставка в регионы:
+          </h3>
+          <p>
+            Отправка в регионы осуществляется любой доступной компанией на ваше усмотрение. Стоимость доставки рассчитывается исходя из веса и объема вашего заказа по тарифам транспортной компании. Окончательная стоимость будет сформирована после упаковки товара. Передача собранного заказа в транспортную компанию осуществляется в течение 1-2 рабочих дней.
+          </p>
+        </Col>
+      </Container>
     </MainContainer>
   </>
   )

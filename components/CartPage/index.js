@@ -19,7 +19,6 @@ export default function CartPage() {
 
   return (
     <>
-      <h2 className="text-center">Корзина</h2>
       {cartItems.length > 0 ? <CartList showSuccess={showSuccess} /> : <EmptyCart />}
       <SuccessModal showSuccess={showSuccess} />
     </>
