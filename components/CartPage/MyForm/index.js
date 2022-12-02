@@ -7,7 +7,7 @@ import { fullDeleteAction } from '../../../store/itemsReducer'
 import { useSelector } from 'react-redux'
 import MySpiner from '../MyModal/MySpiner';
 
-const adress = 'https://your-candle-dekor129.vercel.app'
+const adress = 'https://your-candle.ru'
 
 export default function MyForm({ onClose, showSuccess, load }) {
   const dispatch = useDispatch()

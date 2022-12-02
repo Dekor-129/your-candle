@@ -5,7 +5,7 @@ import FloatingLabel from 'react-bootstrap/FloatingLabel';
 import Form from 'react-bootstrap/Form';
 import MySpiner from '../components/CartPage/MyModal/MySpiner';
 
-const adress = 'https://your-candle-dekor129.vercel.app'
+const adress = 'https://your-candle.ru'
 
 export default function Contacts() {
   const [isLoad, setIsLoad] = useState(false)
